@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerdiv{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 20px;
+}
+.timerdiv h1{
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.timediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timediv p{
+  margin: 20px;
+}
+.formatted-time{
+  font-size: 50px;
+}
+.number{
+  font-size: 100px;
+}
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+}
+.buttondiv button{
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+}
+#resetbutton{
+  border: 2px solid orange;
+}
+#resetbutton:hover{
+  background: orange;
+  color: white;
+  transition: 0.3s ease;
+}
+.buttondiv button:hover{
+  cursor: pointer;
+}
