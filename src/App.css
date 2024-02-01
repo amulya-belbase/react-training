@@ -6,8 +6,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-
+/* 
 .timerdiv{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
   padding: 20px;
@@ -53,4 +54,55 @@
 }
 .buttondiv button:hover{
   cursor: pointer;
+} */
+.weatherReport{
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+  margin-top: 20px;
+}
+.weatherReportTop{
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+.weatherReportTop h1{
+  margin-top: 0;
+  text-align: center;
+}
+.weatherPosition{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.weatherReportBottom{
+  background-color: #588157;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 45px 45px;
+}
+.weatherInfoBasic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weatherInfoTitle{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px; 
+  margin-bottom: 0px;
+}
+.weatherInfoBasicTitle{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.weatherInfoBasicTitle p{
+  font-size: 16px;
+}
+.tempTime{
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
