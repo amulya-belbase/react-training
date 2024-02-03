@@ -1,11 +1,10 @@
 import './App.css';
-// import TimerApp from './components/timerApp';
-import WeatherApp from './components/weatherApp';
+import FormApp from './components/formApp';
+
 function App() {
   return (
     <div className="app">
-      {/* <TimerApp />      */}
-    <WeatherApp />
+      <FormApp />
     </div>
   );
 }
