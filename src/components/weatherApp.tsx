@@ -2,9 +2,11 @@
 import { useState } from 'react';
 import WeatherDisplay from './weatherDisplay';
 import useWeatherData from './hooks/useWeatherData';
+import GoBack from "./goBack";
+
 
 const WeatherApp = () => {
-  
+
     // default latitude,longitude value (Kathmandu, Nepal)
     const [coordinates, setCoordinates] = useState({
         latitude: 27.7017,
@@ -19,7 +21,7 @@ const WeatherApp = () => {
         setCoordinates(prevCoordinates => ({
             ...prevCoordinates,
             latitude: newLatitude
-          }));
+        }));
     };
 
     // changes sets new longitude value based on input
@@ -27,11 +29,12 @@ const WeatherApp = () => {
         setCoordinates(prevCoordinates => ({
             ...prevCoordinates,
             longitude: newLongitude
-          }));
+        }));
     };
 
     return (
         <div className="weatherReport">
+            <GoBack />
             <div className='weatherReportTop'>
                 <h1>Weather App</h1>
                 <div className='weatherPosition'>

@@ -38,7 +38,6 @@ const WeatherDisplay = (props: any) => {
 
 
             <p className="weatherInfoTitle">Hourly Weather Info</p>
-
             {/* IIFE to create an iterable loop and execute it right away */}
             {(() => {
                 // stores 5 div element

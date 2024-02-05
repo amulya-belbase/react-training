@@ -1,10 +1,29 @@
 import './App.css';
-import FormApp from './components/formApp';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <FormApp />
+      <h1>Assignment lists</h1>
+      
+      <Link to="timer">
+        <button>
+          Timer App
+        </button>
+      </Link>
+
+      <Link to="weather">
+        <button>
+          Weather App
+        </button>
+      </Link>
+
+      <Link to="form">
+        <button>
+          Activity Form App
+        </button>
+      </Link>
+
     </div>
   );
 }

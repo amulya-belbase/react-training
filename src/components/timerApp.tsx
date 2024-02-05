@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import TimerBtns from './timerBtns';
+import GoBack from "./goBack";
 
 const TimerApp: React.FC = () => {
 
@@ -62,6 +63,8 @@ const TimerApp: React.FC = () => {
 
   return (
     <div className="timerdiv">
+      <GoBack />
+
       <h1>Timer App</h1>
       <div className="timediv">
         <p>{formatTime(count)}</p>

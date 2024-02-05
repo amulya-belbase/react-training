@@ -4,6 +4,172 @@
 body{
   background-color: azure;
 }
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.app button{
+  padding: 15px 30px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #045384;
+}
+.app button:hover{
+  cursor: pointer;
+  background-color: #064268;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.timerdiv{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 20px;
+}
+.timerdiv h1{
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.timediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timediv p{
+  margin: 20px;
+}
+.formatted-time{
+  font-size: 50px;
+}
+.number{
+  font-size: 100px;
+}
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+}
+.buttondiv button{
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+}
+#resetbutton{
+  border: 2px solid orange;
+}
+#resetbutton:hover{
+  background: orange;
+  color: white;
+  transition: 0.3s ease;
+}
+.buttondiv button:hover{
+  cursor: pointer;
+}
+
+.timerdiv{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 20px;
+}
+.timerdiv h1{
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.timediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timediv p{
+  margin: 20px;
+}
+.formatted-time{
+  font-size: 50px;
+}
+.number{
+  font-size: 100px;
+}
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+}
+.buttondiv button{
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+}
+#resetbutton{
+  border: 2px solid orange;
+}
+#resetbutton:hover{
+  background: orange;
+  color: white;
+  transition: 0.3s ease;
+}
+.buttondiv button:hover{
+  cursor: pointer;
+} */
+.weatherReport{
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.75);
+  margin-top: 20px;
+}
+.weatherReportTop{
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+.weatherReportTop h1{
+  margin-top: 0;
+  text-align: center;
+}
+.weatherPosition{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.weatherReportBottom{
+  background-color: #588157;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 45px 45px;
+}
+.weatherInfoBasic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weatherInfoTitle{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px; 
+  margin-bottom: 0px;
+}
+.weatherInfoBasicTitle{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.weatherInfoBasicTitle p{
+  font-size: 16px;
+}
+.tempTime{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
 .formNDisplay{
   display: flex;
   width: 100%;
@@ -127,4 +293,16 @@ body{
 }
 span{
   color: #b90101;
+}
+.goback button{
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #045384;
+}
+.goback button:hover{
+  cursor: pointer;
+}
+.goback button img{
+  width: 25px;
+  height: auto;
 }
